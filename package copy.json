@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-sqlite",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jobx10/nextjs-sqlite",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
