@@ -1,8 +1,6 @@
-
-// next.config.js
-module.exports = {
-  trailingSlash: true,
-  basePath: '/nextjs-sqlite', // Replace with your repository name
-  assetPrefix: '/nextjs-sqlite/', // Replace with your repository name
-  // other configurations
-};
+  /** @type {import('next').NextConfig} */ 
+    const nextConfig = {
+    output: 'export',
+    reactStrictMode: true,
+    }
+    module.exports = nextConfig
